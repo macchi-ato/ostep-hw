@@ -1,0 +1,10 @@
+*
+
+# Only allow:
+!*/
+!*.c
+!*.txt
+!.gitignore
+
+# Remove figures
+*/figures
