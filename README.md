@@ -1,7 +1,3 @@
-# OSTEP Homework
-
-My solutions to the coding homework from [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) (OSTEP).
-
 ## Chapters
 
 ### Process API (Chapter 5)
