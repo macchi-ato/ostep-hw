@@ -12,3 +12,7 @@
 | h6.c | What's the difference between `wait()` and `waitpid()`? |
 | h7.c | What happens when the child closes stdout? |
 | h8.c | How do two child processes communicate via a pipe? |
+
+### Address Spaces (Chapter 13)
+
+Created `memory-user.c`, a program that allocates a specified number of megabytes and continuously streams through the array, touching each entry for a given duration. Used alongside tools like `free` and `pmap` to observe memory usage.
