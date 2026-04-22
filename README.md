@@ -18,3 +18,15 @@
 ### Address Spaces (Chapter 13)
 
 Created `memory-user.c`, a program that allocates a specified number of megabytes and continuously streams through the array, touching each entry for a given duration. Used alongside tools like `free` and `pmap` to observe memory usage.
+
+---
+
+### Memory API (Chapter 14)
+
+| File | Question |
+|------|----------|
+| null.c | What happens when you create a NULL pointer and dereference it? |
+| malloc.c | What does valgrind report when allocated memory is never freed? |
+| data.c | What happens when you write to `data[100]` in a 100 element array? |
+| free.c | What happens when you read from memory after freeing it? |
+| vector.c | How do you implement a dynamic array using `realloc()`? |
